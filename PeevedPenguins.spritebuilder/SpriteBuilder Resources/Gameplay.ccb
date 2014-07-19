@@ -236,8 +236,8 @@
 						<string>Point</string>
 						<key>value</key>
 						<array>
-							<real>0.175874263048172</real>
-							<real>0.044425230473279953</real>
+							<real>0.1500186026096344</real>
+							<real>-0.010372615419328213</real>
 						</array>
 					</dict>
 					<dict>
@@ -606,8 +606,6 @@
 								</array>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>
