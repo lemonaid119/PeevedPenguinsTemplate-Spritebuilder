@@ -48,6 +48,7 @@
 - (void)retry {
     // reload this level
     [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameplay"]];
-    
+    CCActionFollow *follow = [CCActionFollow actionWithTarget:retry worldBoundary:self.boundingBox];
+    [self runAction:follow];
 }
 @end
